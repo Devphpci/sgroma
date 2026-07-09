@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="311px" height="195px" viewBox="0 0 311 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3rd Visa Card@3x</title>
+    <defs>
+        <linearGradient x1="62.1708728%" y1="68.7825182%" x2="35.4318513%" y2="31.2174818%" id="linearGradient-1">
+            <stop stop-color="#CE35E2" offset="0%"></stop>
+            <stop stop-color="#9E5DDD" offset="19.5470556%"></stop>
+            <stop stop-color="#0871DF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="310" height="190" rx="14"></rect>
+        <rect id="path-4" x="0" y="0" width="310" height="190" rx="14"></rect>
+        <filter x="-0.2%" y="-0.4%" width="100.5%" height="100.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0.25" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.05 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadInner2"></feMorphology>
+            <feGaussianBlur stdDeviation="0.25" in="shadowSpreadInner2" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.02 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="100%" y1="74.1645374%" x2="0%" y2="25.8354626%" id="linearGradient-6">
+            <stop stop-color="#DBDBDB" offset="0%"></stop>
+            <stop stop-color="#FAFAFA" offset="37.8928829%"></stop>
+            <stop stop-color="#DEDEDE" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-7" x="0" y="0" width="50.6122449" height="35.1851852" rx="8"></rect>
+        <linearGradient x1="79.559448%" y1="100%" x2="20.4395855%" y2="0%" id="linearGradient-9">
+            <stop stop-color="#DBDBDB" offset="0%"></stop>
+            <stop stop-color="#FAFAFA" offset="37.9944906%"></stop>
+            <stop stop-color="#DEDEDE" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-10" x="0" y="0" width="50.6122449" height="35.1851852" rx="8"></rect>
+    </defs>
+    <g id="5.-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.2-My-Cards" transform="translate(-31.000000, -696.000000)">
+            <g id="Cards" transform="translate(31.509524, 277.000000)">
+                <g id="3rd-Visa-Card" transform="translate(0.418130, 419.338780)">
+                    <g id="Group-2" transform="translate(0.002346, 0.001220)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="BG" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <g id="Thickness" mask="url(#mask-3)" fill="black" fill-opacity="1">
+                            <use filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        </g>
+                        <g id="Chip" mask="url(#mask-3)">
+                            <g transform="translate(237.460641, 129.296296)">
+                                <mask id="mask-8" fill="white">
+                                    <use xlink:href="#path-7"></use>
+                                </mask>
+                                <use id="BG" stroke="none" fill="url(#linearGradient-6)" fill-rule="evenodd" xlink:href="#path-7"></use>
+                                <g id="Grid" opacity="0.5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-8)">
+                                    <path d="M50.8622449,13.8240741 L50.8622449,21.3611111 L-0.25,21.3611111 L-0.25,13.8240741 L50.8622449,13.8240741 Z" id="4" stroke="#A2A2A2" stroke-width="0.5"></path>
+                                    <path d="M30.9314677,-0.25 C30.973746,-0.0503218342 32.7864431,8.77114076 32.7864431,17.5925926 C32.7864431,25.635681 31.2795211,33.6787784 31.0135936,35.0355293 L30.991825,35.1457303 C30.9800183,35.2049829 30.973746,35.235507 30.973746,35.235507 L30.973746,35.235507 L19.6807772,35.4351852 C19.6788555,35.4261089 19.6732758,35.399219 19.6643748,35.3553252 L19.642244,35.2451057 C19.3742512,33.8989218 17.8258017,25.7457526 17.8258017,17.5925926 C17.8258017,9.54950416 19.3327238,1.50640677 19.5986513,0.149655849 L19.6204199,0.0394549048 C19.6322266,-0.0197977422 19.6384989,-0.0503218342 19.6384989,-0.0503218342 L19.6384989,-0.0503218342 Z" id="3" stroke="#A2A2A2" stroke-width="0.5" fill="url(#linearGradient-9)"></path>
+                                    <path d="M50.8622449,6.78703704 L50.8622449,28.3981481 L-0.25,28.3981481 L-0.25,6.78703704 L50.8622449,6.78703704 Z" id="2" stroke="#A2A2A2" stroke-width="0.5"></path>
+                                    <mask id="mask-11" fill="white">
+                                        <use xlink:href="#path-10"></use>
+                                    </mask>
+                                    <use id="1" stroke="#A2A2A2" xlink:href="#path-10"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Card-number" transform="translate(30.358876, 68.362792)" fill="#FFFFFF">
+                        <text id="8156-9624-0018-1753" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" line-spacing="24" letter-spacing="2">
+                            <tspan x="0" y="35.8467631">4633 4403 4474 8004</tspan>
+                            
+                        </text>
+                        <text id="CARD-NUMBER" opacity="0.300000012" font-family="Roboto-Medium, Roboto" font-size="11" font-weight="400" line-spacing="20" letter-spacing="1">
+                            <tspan x="0" y="12">NUMĂRUL DE CARD</tspan>
+                        </text>
+                    </g>
+                    <g id="Expire-Date" transform="translate(30.358876, 125.217600)" fill="#FFFFFF" font-family="Roboto-Regular, Roboto" font-weight="normal">
+                        <text id="08/20" font-size="17" line-spacing="24" letter-spacing="2">
+                            <tspan x="0" y="35.8467631">08/2</tspan>
+                            <tspan x="43.7763672" y="35.8467631">7</tspan>
+                        </text>
+                        <text id="EXPIRE-DATE" opacity="0.300000012" font-size="11" line-spacing="20" letter-spacing="1">
+                            <tspan x="0" y="12">DATA EXPIRĂRII</tspan>
+                        </text>
+                    </g>
+                    <g id="CVV" transform="translate(166.648260, 125.217600)" fill="#FFFFFF" font-family="Roboto-Regular, Roboto" font-weight="normal">
+                        <text id="031" font-size="17" line-spacing="24" letter-spacing="2">
+                            <tspan x="0" y="35.8467631">03</tspan>
+                            <tspan x="23.1499023" y="35.8467631">1</tspan>
+                        </text>
+                        <text opacity="0.300000012" font-size="11" line-spacing="20" letter-spacing="1">
+                            <tspan x="0" y="12">CVV</tspan>
+                        </text>
+                    </g>
+                    <g id="logo-Visa" transform="translate(30.358876, 23.403143)">
+                        <path d="M70.6664237,0.558744662 L75.5966782,24.0819949 L69.9417114,24.0819949 L69.2200147,20.5885913 L61.3899061,20.5885913 L60.1063311,24.0819949 L53.6874514,24.0819949 L62.8714953,2.31094393 L62.8714953,2.31094393 L62.8798393,2.28709178 C62.956664,2.07759516 63.5870572,0.558744662 65.7160662,0.558744662 L65.7160662,0.558744662 L70.6664237,0.558744662 Z M66.4005725,6.95682084 L63.1649987,15.7617971 L68.221902,15.7617971 L66.4005725,6.95682084 Z" id="a" fill="#FFFFFF"></path>
+                        <path d="M54.1679125,6.21515977 L55.0474176,1.16346831 C55.0474176,1.16346831 52.3345212,0.137936965 49.508043,0.137936965 C46.4513857,0.137936965 39.1932067,1.46632991 39.1932067,7.92537822 C39.1932067,14.0036006 47.7128473,14.0795659 47.7128473,17.2691083 C47.7128473,20.4606498 40.0717067,19.8909102 37.5487834,17.8778301 L36.6340981,23.158417 C36.6340981,23.158417 39.3831798,24.4878094 43.5867118,24.4878094 C47.7882335,24.4878094 54.130722,22.3227988 54.130722,16.4344897 C54.130722,10.3182847 45.5346901,9.74754552 45.5346901,7.08876055 C45.5346901,4.42897603 51.5334177,4.77081981 54.1679125,6.21515977" id="s" fill="#FFFFFF"></path>
+                        <polyline id="i" fill="#FFFFFF" points="32.8386565 24.0819949 26.6801102 24.0819949 30.5288247 0.558744662 36.6893813 0.558744662 32.8386565 24.0819949"></polyline>
+                        <path d="M28.1275244,0.558744662 L18.3283295,24.0819949 L11.91146,24.0819949 L6.56205845,3.64533414 C4.61311921,2.48148277 2.82354684,1.77734371 1.62749906,1.38336119 C3.36471987,1.95423121 6.35260338,3.17974436 9.25987764,5.51947768 C13.2870947,8.76129034 14.7580481,12.753044 14.9171665,13.2114448 L14.9303138,13.2500321 L14.9303138,13.2500321 L14.9319319,13.2539432 L15.6274948,16.7383508 L21.4985685,0.558744662 L28.1275244,0.558744662 Z" id="v" fill="#FFFFFF"></path>
+                        <path d="M14.9319319,13.2549427 L12.8593152,2.67677675 C12.8593152,2.67677675 12.6100383,0.558744662 9.93835303,0.558744662 L0.231631769,0.558744662 L0.118049963,0.956562865 C0.119055111,0.956562865 4.7849555,1.91812345 9.25987764,5.51947768 C13.5387958,8.96390363 14.9319319,13.2549427 14.9319319,13.2549427" id="shape" fill="#F9A533"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

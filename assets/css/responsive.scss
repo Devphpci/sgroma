@@ -1,0 +1,57 @@
+/*************** Media Variable ***************/
+$to-767: "only screen and (max-width : 767px)";
+$to-575: "only screen and (max-width : 575px)";
+$from-481-to-1024: "only screen and (min-width : 481px) and (max-width: 1024px)";
+
+// to 767: max-767
+@media #{$to-767} {
+    .appbar-page-title {
+        h3 {
+            font-size: 14px;
+        }
+    }
+}
+// to 575: max-575
+@media #{$to-575} {
+    .option-card {
+        p {
+            font-size: 3vw;
+        }
+    }
+    .feature-card-details {
+        p {
+            font-size: 3vw;
+        }
+        h3 {
+            font-size: 4vw;
+        }
+    }
+    .monthly-bill-price {
+        font-size: 3vw;
+    }
+    .user-card {
+        padding: 10px 5px;
+        h3 {
+            font-size: 3vw;
+        }
+    }
+}
+@media #{$from-481-to-1024} and (orientation: landscape) {
+    .add-card {
+        padding: 30px;
+    }
+    .monthly-bill-card {
+        padding: 15px;
+    }
+    .user-card {
+        padding: 20px;
+    }
+    .navbar-content-item {
+        a {
+            font-size: 13px;
+            i {
+                font-size: 18px;
+            }
+        }
+    }
+}
